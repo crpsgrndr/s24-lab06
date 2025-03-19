@@ -41,7 +41,7 @@ public class Main {
         list2.addAll(list1);
 
         printList(list2);
-        System.out.println(list2.getTotalAdded());
+        System.out.println(((InheritanceSortedIntList) list2).getTotalAdded());//+
     }
 
     /**
